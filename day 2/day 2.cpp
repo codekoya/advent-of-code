@@ -36,8 +36,7 @@ int main(int argc, char* argv[])
                 break;
             }
         }
-        sum += gameId;
-        minSum += minRed * minGreen * minBlue;
-        printf("minSum %d \n", minSum);
+        sum += gameId; // part 1
+        minSum += minRed * minGreen * minBlue; // part 2
     }
 }
